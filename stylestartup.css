@@ -1,0 +1,38 @@
+
+body,
+html
+{
+	width: 100%;
+	height: 100%;
+}
+body{
+	font-family: 'Montserrat';
+
+}
+
+.faded{
+	color:rgba(255,255,255,0.8);
+}
+header.startup{
+	background-position: center;
+	background-image: url("bg.jpg");
+    background-size: cover;
+    height: 100%;
+}
+header.startup hr{
+	margin-top: 200px;
+	margin-bottom: 30px;
+}
+header.startup h1{
+	font-size: 2rem;
+}
+.btn{
+	font-family: 'Montserrat',sans-serif;
+	border-radius: 300px;
+	font-weight: 700;
+	text-transform: uppercase;
+	
+}
+.btn-xl{
+	padding: 1rem 2rem;
+}
